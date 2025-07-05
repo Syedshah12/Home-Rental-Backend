@@ -11,7 +11,7 @@ app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://home-rental-frontend-flax.vercel.app",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
   })
